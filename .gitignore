@@ -1,0 +1,26 @@
+
+### 2. `.gitignore` — Very useful to demonstrate
+
+This teaches students that **not everything inside a project folder should be pushed to GitHub**.
+
+```gitignore id="n5r2px"
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# Node dependencies
+node_modules/
